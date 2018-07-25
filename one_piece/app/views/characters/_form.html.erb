@@ -1,0 +1,35 @@
+<%= form_with model: @character, local: true do |form| %>
+
+<% if @character.errors.any? %>
+  <div id="error_explanation">
+    <h2>
+      <%= pluralize(@character.errors.count, "error") %> prohibited
+      this article from being saved:
+    </h2>
+    <ul>
+      <% @character.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+
+  <p>
+    <%= form.label :name %><br>
+    <%= form.text_field :name %>
+  </p>
+
+  <p>
+    <%= form.label :power %><br>
+    <%= form.text_area :power %>
+  </p>
+
+  <p>
+    <%= form.label :crew_id %><br>
+    <%= form.text_area :crew_id %>
+  </p>
+
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
