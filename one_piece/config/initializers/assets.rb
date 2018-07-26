@@ -15,3 +15,4 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 
 Rails.application.config.assets.precompile += %w( crew.css )
 Rails.application.config.assets.precompile += %w( character.css )
+Rails.application.config.assets.precompile += %w( size.css )
