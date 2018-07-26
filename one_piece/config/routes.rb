@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   get 'characters/index'
   resources :characters
+  resources :crews
 
   root 'characters#index'
 

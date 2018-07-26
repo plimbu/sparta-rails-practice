@@ -24,10 +24,7 @@
     <%= form.text_area :power %>
   </p>
 
-  <p>
-    <%= form.label :crew_id %><br>
-    <%= form.text_area :crew_id %>
-  </p>
+  <%= collection_select(:character, :crew_id, Crew.all, :id, :name, options ={:prompt => "-Select a Crew"})%>
 
   <p>
     <%= form.submit %>

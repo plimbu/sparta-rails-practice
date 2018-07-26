@@ -13,6 +13,7 @@ class CharactersController < ApplicationController
 
   def new
     @character = Character.new
+    @crews = Crew.all
   end
 
   def create
