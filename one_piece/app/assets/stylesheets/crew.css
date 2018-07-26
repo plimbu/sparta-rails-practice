@@ -26,3 +26,28 @@ body {
   margin-left: 760px;
   top: 150px;
 }
+
+.welcome_text {
+  margin-bottom: 20px;
+}
+
+.crews_text_crew {
+  width: 180px;
+  height: 40px;
+  margin-right: 55px;
+  margin-left: 65px;
+  margin-bottom: 20px;
+}
+
+.crews_text_new_character {
+  width: 250px;
+  height: 40px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+.crews_text_new_crew {
+  width: 170px;
+  height: 40px;
+  margin-bottom: 20px;
+}

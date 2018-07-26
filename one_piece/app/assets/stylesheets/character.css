@@ -4,7 +4,10 @@ body {
 }
 
 .index_image {
+  position: relative;
   margin-left: 800px;
+  top: -50px;
+  right: -20px;
 }
 
 .edit_image {
@@ -16,11 +19,36 @@ body {
 .new_image {
   position: absolute;
   margin-left: 800px;
-  top: 100px;
+  top: 80px;
 }
 
 .show_image {
   position: absolute;
   margin-left: 800px;
   top: 100px;
+}
+
+.welcome_text {
+  margin-bottom: 20px;
+}
+
+.characters_text_crew {
+  width: 100px;
+  height: 40px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.characters_text_new_character {
+  width: 250px;
+  height: 40px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+.characters_text_new_crew {
+  width: 170px;
+  height: 40px;
+  margin-bottom: 20px;
 }

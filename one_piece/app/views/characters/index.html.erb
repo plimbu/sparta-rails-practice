@@ -1,14 +1,14 @@
 
 <div class="">
-  <%= image_tag("welcome_text.png") %>
+  <%= image_tag("welcome_text.png", class: "welcome_text") %>
 </div>
 <%= stylesheet_link_tag "character" %>
 
-<%= link_to 'Crews', controller: 'crews' %>
+<%= link_to image_tag('crew_text.png', class: "characters_text_crew"), controller: 'crews' %>
 
-<%= link_to 'New Character', new_character_path %>
+<%= link_to image_tag('character_new_text.png', class: "characters_text_new_character"), new_character_path %>
 
-<%= link_to 'New Crew', new_crew_path %>
+<%= link_to image_tag('crew_new_text.png', class: "characters_text_new_crew"), new_crew_path %>
 
 <table>
   <tr>
