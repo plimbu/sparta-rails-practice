@@ -1,4 +1,9 @@
 class CharactersController < ApplicationController
+  # before running anything authenticate user to check he's logged in
+  before_action :authenticate_user!
+
+
+
   def index
     @characters = Character.all
   end

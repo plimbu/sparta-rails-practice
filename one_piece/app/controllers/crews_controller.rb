@@ -1,4 +1,8 @@
 class CrewsController < ApplicationController
+  # before running anything authenticate user to check he's logged in
+  before_action :authenticate_user!
+
+
   def index
     @crews = Crew.all
   end
