@@ -24,7 +24,7 @@ body {
 
 .show_image {
   position: absolute;
-  margin-left: 800px;
+  left: 10px;
   top: 100px;
 }
 
@@ -51,4 +51,70 @@ body {
   width: 170px;
   height: 40px;
   margin-bottom: 20px;
+}
+
+.index_box {
+  position: relative;
+  border: 2px solid black;
+  width: 350px;
+  margin-left: 40px;
+  top: -470px;
+  left: 200px;
+  background-color: white;
+}
+
+.info_box {
+  position: relative;
+  border: 2px solid black;
+  width: 350px;
+  left: 255px;
+  background-color: white;
+  text-align: center;
+  top: 235px;
+}
+
+.show_box {
+  position: relative;
+  border: 2px solid black;
+  width: 350px;
+  left: 255px;
+  background-color: white;
+  text-align: center;
+  top: 235px;
+}
+
+.new_character_text {
+  position: relative;
+  left: 250px;
+  top: 225px;
+}
+
+.edit_character_text {
+  position: relative;
+  left: 250px;
+  top: 225px;
+}
+
+.show_character_text {
+  position: relative;
+  left: 230px;
+  top: 225px;
+}
+
+.form_return_text {
+  position: relative;
+  left: 370px;
+  top: 250px;
+}
+
+.show_edit_text {
+  position: relative;
+  left: 300px;
+  top: 250px;
+}
+
+.show_return_text {
+  position: relative;
+  left: 340px;
+  top: 250px;
 }

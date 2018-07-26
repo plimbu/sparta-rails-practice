@@ -1,7 +1,7 @@
-<%= image_tag("character_new_text.png", class: "new_text") %>
+<%= image_tag("character_new_text.png", class: "new_character_text") %>
 
 <%= render 'form' %>
 
 <%= image_tag("character_new_image.png", class: "new_image") %>
 
-<%= link_to 'Back', characters_path %>
+<%= link_to image_tag('back_text.png', class: "form_return_text"), characters_path %>

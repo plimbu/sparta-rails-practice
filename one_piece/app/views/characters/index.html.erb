@@ -10,27 +10,29 @@
 
 <%= link_to image_tag('crew_new_text.png', class: "characters_text_new_crew"), new_crew_path %>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Power</th>
-    <th>Crew</th>
-    <th colspan="5"></th>
-    <th></th>
-  </tr>
-
-  <% @characters.each do |character| %>
-    <tr>
-      <td><%= character.name %></td>
-      <td><%= character.power %></td>
-      <td><%= character.crew.name %></td>
-      <td><%= link_to 'Show', character_path(character) %></td>
-      <td><%= link_to 'Edit', edit_character_path(character) %></td>
-      <td><%= link_to 'Destroy', character_path(character),
-              method: :delete,
-              data: { confirm: 'Are you sure?' } %></td>
-    </tr>
-  <% end %>
-</table>
-
 <%= image_tag("character_index_image.png", class: "index_image") %>
+
+<div class="index_box">
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Power</th>
+      <th>Crew</th>
+      <th colspan="5"></th>
+      <th></th>
+    </tr>
+
+    <% @characters.each do |character| %>
+      <tr>
+        <td><%= character.name %></td>
+        <td><%= character.power %></td>
+        <td><%= character.crew.name %></td>
+        <td><%= link_to 'Show', character_path(character) %></td>
+        <td><%= link_to 'Edit', edit_character_path(character) %></td>
+        <td><%= link_to 'Destroy', character_path(character),
+                method: :delete,
+                data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </table>
+</div>
