@@ -7,7 +7,7 @@ body {
   position: relative;
   margin-left: 800px;
   top: -50px;
-  right: -20px;
+  right: 120px;
 }
 
 .edit_image {
@@ -24,7 +24,7 @@ body {
 
 .show_image {
   position: absolute;
-  left: 10px;
+  left: 100px;
   top: 100px;
 }
 
