@@ -1,4 +1,7 @@
-<%= image_tag("welcome_text.png") %>
+<div class="">
+  <%= image_tag("welcome_text.png") %>
+</div>
+<%= stylesheet_link_tag "crew" %>
 
 <%= link_to 'Characters', controller: 'characters' %>
 
@@ -27,3 +30,5 @@
     </tr>
   <% end %>
 </table>
+
+<%= image_tag("crew_index_image.png", class: "index_image") %>

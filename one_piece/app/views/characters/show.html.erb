@@ -9,9 +9,11 @@
 </p>
 
 <p>
-  <strong>Crew ID:</strong>
-  <%= @character.crew_id %>
+  <strong>Crew:</strong>
+  <%= @character.crew.name %>
 </p>
 
 <%= link_to 'Edit', edit_character_path(@character) %> |
 <%= link_to 'Back', characters_path %>
+
+<%= image_tag("character_show_image.png", class: "show_image") %>

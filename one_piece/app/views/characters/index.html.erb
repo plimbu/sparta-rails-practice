@@ -1,6 +1,8 @@
-<%= stylesheet_link_tag "global" %>
 
-<h1>Welcome to the One Piece Database</h1>
+<div class="">
+  <%= image_tag("welcome_text.png") %>
+</div>
+<%= stylesheet_link_tag "character" %>
 
 <%= link_to 'Crews', controller: 'crews' %>
 
@@ -12,7 +14,7 @@
   <tr>
     <th>Name</th>
     <th>Power</th>
-    <th>Crew ID</th>
+    <th>Crew</th>
     <th colspan="5"></th>
     <th></th>
   </tr>
@@ -21,7 +23,7 @@
     <tr>
       <td><%= character.name %></td>
       <td><%= character.power %></td>
-      <td><%= character.crew_id %></td>
+      <td><%= character.crew.name %></td>
       <td><%= link_to 'Show', character_path(character) %></td>
       <td><%= link_to 'Edit', edit_character_path(character) %></td>
       <td><%= link_to 'Destroy', character_path(character),
@@ -30,3 +32,5 @@
     </tr>
   <% end %>
 </table>
+
+<%= image_tag("character_index_image.png", class: "index_image") %>

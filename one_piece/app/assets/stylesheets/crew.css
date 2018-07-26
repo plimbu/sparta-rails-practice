@@ -1,0 +1,28 @@
+body {
+  background-image: url("crew_background.png");
+  background-size: cover;
+}
+
+.index_image {
+  position: relative;
+  margin-left: 800px;
+  top: -20px;
+}
+
+.edit_image {
+  position: absolute;
+  margin-left: 800px;
+  bottom: 100px;
+}
+
+.new_image {
+  position: absolute;
+  margin-left: 800px;
+  top: 150px;
+}
+
+.show_image {
+  position: absolute;
+  margin-left: 760px;
+  top: 150px;
+}
