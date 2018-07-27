@@ -1,0 +1,91 @@
+body {
+  background-image: url("crew_background.png");
+  background-size: cover;
+}
+
+.index_image {
+  position: relative;
+  margin-left: 800px;
+  top: -20px;
+}
+
+.edit_image {
+  position: absolute;
+  margin-left: 800px;
+  bottom: 100px;
+}
+
+.new_image {
+  position: absolute;
+  margin-left: 800px;
+  top: 150px;
+}
+
+.show_image {
+  position: absolute;
+  margin-left: 760px;
+  top: 150px;
+}
+
+.welcome_text {
+  margin-bottom: 20px;
+}
+
+.crews_text_crew {
+  width: 180px;
+  height: 40px;
+  margin-right: 55px;
+  margin-left: 65px;
+  margin-bottom: 20px;
+}
+
+.crews_text_new_character {
+  width: 250px;
+  height: 40px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+.crews_text_new_crew {
+  width: 170px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.index_box {
+  position: relative;
+  border: 2px solid black;
+  width: 350px;
+  margin-left: 40px;
+  top: -470px;
+  left: 200px;
+  background-color: white;
+}
+
+.info_box {
+  position: relative;
+  border: 2px solid black;
+  width: 350px;
+  left: 255px;
+  background-color: white;
+  text-align: center;
+  top: 235px;
+}
+
+.new_crew_text {
+  position: relative;
+  left: 300px;
+  top: 225px;
+}
+
+.edit_crew_text {
+  position: relative;
+  left: 300px;
+  top: 225px;
+}
+
+.show_crew_text {
+  position: relative;
+  left: 285px;
+  top: 225px;
+}

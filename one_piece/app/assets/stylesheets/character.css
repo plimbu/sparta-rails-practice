@@ -1,0 +1,120 @@
+body {
+  background-image: url("character_background.png");
+  background-size: cover;
+}
+
+.index_image {
+  position: relative;
+  margin-left: 800px;
+  top: -50px;
+  right: 120px;
+}
+
+.edit_image {
+  position: absolute;
+  margin-left: 800px;
+  bottom: 100px;
+}
+
+.new_image {
+  position: absolute;
+  margin-left: 800px;
+  top: 80px;
+}
+
+.show_image {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.welcome_text {
+  margin-bottom: 20px;
+}
+
+.characters_text_crew {
+  width: 100px;
+  height: 40px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.characters_text_new_character {
+  width: 250px;
+  height: 40px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+.characters_text_new_crew {
+  width: 170px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.index_box {
+  position: relative;
+  border: 2px solid black;
+  width: 350px;
+  margin-left: 40px;
+  top: -470px;
+  left: 200px;
+  background-color: white;
+}
+
+.info_box {
+  position: relative;
+  border: 2px solid black;
+  width: 350px;
+  left: 255px;
+  background-color: white;
+  text-align: center;
+  top: 235px;
+}
+
+.show_box {
+  position: relative;
+  border: 2px solid black;
+  width: 350px;
+  left: 255px;
+  background-color: white;
+  text-align: center;
+  top: 235px;
+}
+
+.new_character_text {
+  position: relative;
+  left: 250px;
+  top: 225px;
+}
+
+.edit_character_text {
+  position: relative;
+  left: 250px;
+  top: 225px;
+}
+
+.show_character_text {
+  position: relative;
+  left: 230px;
+  top: 225px;
+}
+
+.form_return_text {
+  position: relative;
+  left: 370px;
+  top: 250px;
+}
+
+.show_edit_text {
+  position: relative;
+  left: 300px;
+  top: 250px;
+}
+
+.show_return_text {
+  position: relative;
+  left: 340px;
+  top: 250px;
+}
